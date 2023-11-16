@@ -6,7 +6,7 @@ import phone from "../assets/cellphone-settings.svg"
 import cpu from "../assets/memory.svg"
 
 import html from "../assets/HTML.png"
-import css from "../assets/cSS.png"
+import css from "../assets/CSS.png"
 import tailwind from "../assets/Tailwind.png"
 import js from "../assets/javascript.png"
 import reactIco from "../assets/React.png"
