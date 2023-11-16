@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import mouse from "../assets/mouse.svg"
+import mouse from "../assets/Mouse.svg"
 
 const Contact = () => {
 

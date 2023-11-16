@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../assets/Background.svg"
-import mouse from "../assets/mouse.svg"
+import mouse from "../assets/Mouse.svg"
 import vector from "../assets/vector.jpg"
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import skillbackground from "../assets/Skills.svg"
-import mouse from "../assets/mouse.svg"
+import mouse from "../assets/Mouse.svg"
 import monitor from "../assets/monitor.svg"
 import phone from "../assets/cellphone-settings.svg"
 import cpu from "../assets/memory.svg"

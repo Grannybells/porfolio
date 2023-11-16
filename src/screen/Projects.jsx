@@ -1,5 +1,5 @@
 import React from "react";
-import mouse from "../assets/mouse.svg"
+import mouse from "../assets/Mouse.svg"
 import github from "../assets/github.svg"
 
 
