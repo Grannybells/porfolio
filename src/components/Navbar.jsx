@@ -1,5 +1,5 @@
 import logo from "../assets/Granny.svg"
-import linkedIn from "../assets/linkedIn.svg"
+import linkedIn from "../assets/linkedin.svg"
 import instagram from "../assets/instagram.svg"
 import github from "../assets/github.svg"
 import downloadbox from "../assets/download-box.svg"
