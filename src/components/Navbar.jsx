@@ -6,6 +6,8 @@ import downloadbox from "../assets/download-box.svg"
 import menuIcon from "../assets/menu.svg"
 import React, { useState } from "react";
 
+import resume from '../files/Gran Zuluta Resume.pdf'
+
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -53,22 +55,22 @@ const Navbar = () => {
             )}
 
             <div className={`md:flex md:flex-row md:gap-6 md:items-center ${isOpen ? 'block' : 'hidden'} md:mt-0 flex flex-col gap-3`}>
-                <div className="flex flex-row items-center gap-2">
+                <a href="https://www.linkedin.com/in/gran-zulueta-32080a253/" className="flex flex-row items-center gap-2 cursor-pointer">
                     <img src={linkedIn} alt="linkedIn" />
-                    <a className="text-white text-xs font-poppins">LinkedIn</a>
-                </div>
-                <div className="flex flex-row items-center gap-2">
+                    <p className="text-white text-xs font-poppins hover:text-[#10FFE6]">LinkedIn</p>
+                </a>
+                <a href="https://www.instagram.com/grannyy_zxc/" className="flex flex-row items-center gap-2 cursor-pointer">
                     <img src={instagram} alt="instagram" />
-                    <a className="text-white text-xs font-poppins">Instagram</a>
-                </div>
-                <div className="flex flex-row items-center gap-2">
+                    <p className="text-white text-xs font-poppins hover:text-[#10FFE6]">Instagram</p>
+                </a>
+                <a href="https://github.com/Grannybells" className="flex flex-row items-center gap-2 cursor-pointer">
                     <img src={github} alt="github" />
-                    <a className="text-white text-xs font-poppins">Github</a>
-                </div>
-                <div className="flex flex-row items-center gap-2">
+                    <a className="text-white text-xs font-poppins hover:text-[#10FFE6]">Github</a>
+                </a>
+                <a href={resume} download="Zulueta Resume" className="flex flex-row items-center gap-2 cursor-pointer">
                     <img src={downloadbox} alt="downloadbox" />
-                    <a className="text-white text-xs font-poppins">Download CV</a>
-                </div>
+                    <a className="text-white text-xs font-poppins hover:text-[#10FFE6]">Download CV</a>
+                </a>
             </div>
         </div>
     );

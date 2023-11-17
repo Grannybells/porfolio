@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-scroll';
+
 import Navbar from "../components/Navbar";
 import profile from "../assets/profile.jpg"
 
@@ -15,7 +17,7 @@ const Home = () => {
                     <p className="font-poppins text-lg md:text-xl lg:text-2xl text-white tracking-wider text-center md:text-left">I create & develop applications,</p>
                     <h1 className="font-poppins text-xl md:text-2xl lg:text-4xl text-white font-extrabold tracking-wider leading-relaxed text-center md:text-left">My <span className="text-[#10FFE6]">dream</span> is to create websites that you and the viewers can like.</h1>
                     <span className="font-poppins text-sm md:text-sm lg:text-lg text-white font-thin tracking-wider pt-5 text-center md:text-left">Maybe I'm the one you're looking for?</span>
-                    <button className="w-[200px] h-[50px] bg-[#44474F] text-[#10FFE6] font-poppins font-bold rounded-full tracking-wider text-xl mt-10">Contact Me</button>
+                    <Link className="w-[200px] h-[50px] bg-[#44474F] hover:bg-slate-300 text-[#10FFE6] hover:text-[#44474F] font-poppins font-bold rounded-full tracking-wider text-xl mt-10 flex items-center justify-center cursor-pointer" to='contact' activeClass="active" spy={true} smooth={true} duration={500}>Contact Me</Link>
                 </div>
             </div>
         </div>
