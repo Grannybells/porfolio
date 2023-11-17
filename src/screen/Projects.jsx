@@ -24,27 +24,7 @@ const Projects = () => {
             <div className="flex items-center justify-center">
                 <div className="w-full flex flex-col items-center gap-10">
                     <h1 className="font-poppins text-[#10FFE6] text-4xl font-bold">Works</h1>
-                    <div className="w-full flex flex-row">
-                        <div className="w-full md:w-1/2 flex items-center justify-end">
-                            <img className="h-48 md:h-96" src={project1} alt="github" />
-                        </div>
-                        <div className="w-full md:w-1/2 p-5 flex flex-col gap-5 items-start">
-                            <h1 className="font-poppins text-2xl text-[#10FFE6] font-bold">X-Track</h1>
-                            <div className="border-[1px] w-48" />
-                            <div className="flex flex-row gap-5">
-                                <img className="h-10 transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none" src={reactIco} alt="logo" />
-                                <img className="h-10 transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none" src={tailwind} alt="logo" />
-                                <img className="h-10 transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none" src={firebase} alt="logo" />
-                            </div>
-                            <p className="font-poppins text-sm text-white/80 text-justify h-64 lg:h-auto overflow-hidden">The web-based Inventory and Stock Management System streamlines inventory control by enabling users to track expiration dates and manage product quantities efficiently. It offers flexibility by allowing users to customize expiration dates for individual products, ensuring accurate monitoring of freshness. The system simplifies inventory updates and removal of expired items while maintaining precise stock counts through a dropdown menu for inputting product quantities.</p>
-                            <div className="flex flex-row gap-5">
-                                <a href='https://github.com/Grannybells/x-track-web.git' className=" cursor-pointer">
-                                    <img href='https://github.com/Grannybells/x-track-web.git' className="h-10" src={github} alt="github" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                     <div className="w-full flex flex-row">
 
                         <div className="w-full md:w-1/2 p-5 flex flex-col gap-5 items-end">
